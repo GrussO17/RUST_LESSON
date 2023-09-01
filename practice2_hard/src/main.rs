@@ -19,3 +19,7 @@ use std::net::TcpListener;
 fn main() {
     println!("Hello, world!");
 }
+
+
+#[cfg(test)]
+mod tests;

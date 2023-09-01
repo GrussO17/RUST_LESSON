@@ -1,6 +1,3 @@
-mod tests;
-
-
 fn main() {
 
     //Write a function that takes in a vector of ints, and returns the number of elements above the 'min'
@@ -17,3 +14,6 @@ fn count_above(input: &Vec<i32>, min: i32) -> u32{
 
     1 //Last line (wihtout a semicolon) is the return value
 }
+
+#[cfg(test)]
+mod tests;

@@ -1,13 +1,11 @@
-
-
 use super::*;
 
 #[test]
 fn easy() {
-    assert(1);
+    assert!(true);
 }
 #[test]
 fn hard() {
-    assert!(1);
+    assert!(true);
 }
 
