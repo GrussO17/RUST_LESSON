@@ -14,6 +14,8 @@ use std::net::TcpListener;
 
     Hint: use std::net::TcpListener
 
+    I have an implementation in the test file, try not to cheat but feel free to take inspiration!!
+
     Bonus challenge, make it multi-threaded
  */
 fn main() {
