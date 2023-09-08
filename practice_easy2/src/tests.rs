@@ -8,7 +8,7 @@ fn ref_vec(len: i32) -> Vec<i32>{
         return vec![0];
     }
     let mut v: Vec<i32> = vec![0, 1];
-    for i in 3..len + 1 {
+    for i in 2..len {
         let first = v[(i - 1) as usize];
         let second = v[(i - 2) as usize];
 
@@ -28,7 +28,7 @@ fn ref_ll(len: i32) -> LinkedList<i32> {
     let mut ll: LinkedList<i32> =  LinkedList::from([0, 1]);
     let mut first = 0;
     let mut second = 1;
-    for _ in 3..len + 1 {
+    for _ in 2..len {
         ll.push_back(first + second);
         first = second;
         second = *ll.back().unwrap();
