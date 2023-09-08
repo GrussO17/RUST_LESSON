@@ -8,7 +8,13 @@ fn main() {
 
 }
 
-//don't include values that are equal
+//The goal of coSunt above is to take in a refernece to a vector and return the number of integers that are
+//above the passed min. The count includes the minimum
+//
+// input: Vector of integers
+// min: integer to compare against
+//
+// return: number of values >= min.
 fn count_above(input: &Vec<i32>, min: i32) -> u32{ 
     //TODO this
 

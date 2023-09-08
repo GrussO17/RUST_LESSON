@@ -9,6 +9,7 @@ fn main() {
 
 //Vector practice
 //generate vectors of n length fibonacci sequence
+//if you get stuck there is an implementation in the test file.
 fn fib_vec(len: i32) -> Vec<i32> {
     return vec![0, 1];
 }
