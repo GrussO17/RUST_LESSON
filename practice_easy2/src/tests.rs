@@ -12,7 +12,7 @@ fn ref_vec(len: i32) -> Vec<i32>{
         let first = v[(i - 1) as usize];
         let second = v[(i - 2) as usize];
 
-       v.push(first + second);
+        v.push(first + second);
     }
     println!("vec {v:?}");
     v

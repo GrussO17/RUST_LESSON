@@ -8,5 +8,5 @@ fn ex1() {
      println!("Sentance Before: {}", i);
  
     //THIS IS MY SINGLE LINE
-     println!("Sentance after: {}",i.split(" ").map(|_x| "🍞 ").into_iter().collect::<String>());
+    println!("Sentance after: {}",i.split(" ").map(|_x| "🍞 ").into_iter().collect::<String>());
 }

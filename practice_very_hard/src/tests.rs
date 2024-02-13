@@ -8,4 +8,3 @@ fn easy() {
 fn hard() {
     assert!(true);
 }
-
